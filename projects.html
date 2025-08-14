@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Fathima Zaara</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-flex">
+        <div class="logo">Fathima Zaara</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="projects.html" class="active">Projects & Articles</a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container page-content">
+      <h1>Projects</h1>
+      <p class="projects-intro">
+        Here are some of my recent projects that showcase my skills and
+        expertise in software development.
+      </p>
+
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">
+          All Projects
+        </button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="ai">UI / UX</button>
+        <button class="filter-btn" data-filter="cloud">
+          Research & Articals
+        </button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Project cards will be dynamically generated here -->
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Fathima Zaara. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

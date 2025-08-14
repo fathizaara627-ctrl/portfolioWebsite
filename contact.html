@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Fathima Zaarae</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-flex">
+        <div class="logo">Fathima Zaara</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects & Articles</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container page-content">
+      <h1>Get In Touch</h1>
+      <p class="contact-intro">
+        I'm always open to new opportunities, collaborations, or just a friendly
+        chat about technology. Feel free to reach out through any of the
+        channels below.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-section">
+            <h3>Contact Information</h3>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon">📧</span>
+                <span class="contact-detail"
+                  >Email:
+                  <a href="mailto:jane.doe@example.com"
+                    >fathizaara627@gmail.com</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="contact-icon">📱</span>
+                <span class="contact-detail">Phone: +94 76 440 3035</span>
+              </li>
+              <li>
+                <span class="contact-icon">📍</span>
+                <span class="contact-detail"
+                  >Location: Galle Rd, Katukurunda, Kalutara.</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-section">
+            <h3>Social Media</h3>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/fathima-zaara-362224358/"
+                class="social-link"
+                >LinkedIn</a
+              >
+              <a
+                href="https://github.com/fathizaara627-ctrl"
+                class="social-link"
+                >GitHub</a
+              >
+              <a href="#" class="social-link">Twitter</a>
+              <a href="https://medium.com/@fathizaara627" class="social-link"
+                >Medium</a
+              >
+            </div>
+          </div>
+
+          <div class="contact-section">
+            <h3>Availability</h3>
+            <p>
+              Currently available for freelance projects and consulting work. I
+              typically respond within 24-48 hours.
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <h3>Send Me a Message</h3>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email address"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What is this regarding?"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          <div id="formMessage"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Fathima Zaara. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
